@@ -10,9 +10,9 @@
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/plugins.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link href="css/app.css" rel="stylesheet">
+        <link href="css/plugins.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <title>{{config('app.name', 'LSAPP')}}</title>
 
     </head>
