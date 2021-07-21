@@ -10,9 +10,9 @@
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-        <link href="css/app.css" rel="stylesheet">
-        <link href="css/plugins.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/plugins.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>{{config('app.name', 'LSAPP')}}</title>
 
     </head>
@@ -22,7 +22,7 @@
         @yield('content')
 
         @include('inc.footer')
-        <script src="{{ asset('js/plugins.js',true) }}" defer></script>
-        <script src="{{ asset('js/main.js',true) }}" defer></script>
+        <script src="{{ asset('js/plugins.js') }}" defer></script>
+        <script src="{{ asset('js/main.js') }}" defer></script>
     </body>
 </html>
