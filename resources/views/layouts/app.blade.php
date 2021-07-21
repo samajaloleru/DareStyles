@@ -19,6 +19,7 @@
         @include('inc.navbar')
         
         @yield('content')
+        
         @include('inc.footer')
         <script src="{{ asset('js/plugins.js')}}"></script>
         <script src="{{ asset('js/main.js')}}"></script>
