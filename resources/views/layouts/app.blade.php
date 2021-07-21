@@ -10,6 +10,7 @@
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
+        <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/plugins.css">
         <link rel="stylesheet" href="css/style.css">
         <title>{{config('app.name', 'LSAPP')}}</title>
@@ -19,9 +20,9 @@
         @include('inc.navbar')
         
         @yield('content')
-        
+
         @include('inc.footer')
-        <script src="{{ asset('js/plugins.js')}}"></script>
-        <script src="{{ asset('js/main.js')}}"></script>
+        <script src="{{ asset('js/plugins.js')}}" type="text/javascript"></script>
+        <script src="{{ asset('js/main.js')}}" type="text/javascript"></script>
     </body>
 </html>
