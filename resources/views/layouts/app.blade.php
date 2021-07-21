@@ -22,7 +22,7 @@
         @yield('content')
 
         @include('inc.footer')
-        <script src="{{ asset('js/plugins.js')}}" type="text/javascript"></script>
-        <script src="{{ asset('js/main.js')}}" type="text/javascript"></script>
+        <script src="{{ asset('js/plugins.js',true) }}" defer></script>
+        <script src="{{ asset('js/main.js',true) }}" defer></script>
     </body>
 </html>
