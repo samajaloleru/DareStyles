@@ -20,7 +20,7 @@
         
         @yield('content')
         @include('inc.footer')
-        <script src="{{ secure_asset('js/plugins.js')}}"></script>
-        <script src="{{ secure_asset('js/main.js')}}"></script>
+        <script src="{{ asset('js/plugins.js')}}"></script>
+        <script src="{{ asset('js/main.js')}}"></script>
     </body>
 </html>

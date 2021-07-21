@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/users/{id}/{name}', function ($id, $name) {
 //     return 'This is user '.$name.' with an id of '.$id;
 // });
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 
 Route::get('/', 'PagesController@index');
 Route::get('/blog', 'PagesController@blog');
