@@ -17,7 +17,7 @@ class PagesController extends Controller
         return view('pages.blog')->with('title', $title);
     }
     public function shop() {
-        return view('pages.shop')->with('title', $title);
+        return view('pages.shop');
     }
 
     public function about() {
