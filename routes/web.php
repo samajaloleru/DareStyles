@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'PagesController@index');
+Route::get('/shop', 'PagesController@shop');
 Route::get('/blog', 'PagesController@blog');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');

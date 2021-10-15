@@ -16,6 +16,9 @@ class PagesController extends Controller
         $title = 'Service We Offer';
         return view('pages.blog')->with('title', $title);
     }
+    public function shop() {
+        return view('pages.shop')->with('title', $title);
+    }
 
     public function about() {
         $data = array(

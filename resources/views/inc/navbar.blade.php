@@ -323,21 +323,18 @@
                 <div class="row align-items-center">                   
                     <div class="col-12">
                         <div class="header_static">
-                            <div class="main_menu_inner">
+                            <dihtmlv class="main_menu_inner">
                                 <div class="main_menu"> 
                                     <nav>  
                                         <ul>
                                             <li class="active">
                                                 <a href="/">Home</a>
                                             </li>
-                                            <li class="mega_items">
-                                                <a href="shop.html">Shop</a>
+                                            <li class="">
+                                                <a href="/shop">Shop</a>
                                             </li>
                                             <li>
                                                 <a href="/blog">blog</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">pages</a>
                                             </li>
                                             <li>
                                                 <a href="/about">About us</a>
@@ -348,7 +345,7 @@
                                         </ul>  
                                     </nav> 
                                 </div>
-                            </div> 
+                            </dihtmlv> 
                         
                             <div class="contact_phone">
                                 <p>Call Free Support: <a href="tel:01234567890">01234567890</a></p>
