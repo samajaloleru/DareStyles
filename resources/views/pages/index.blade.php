@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="slider_area slider_style owl-carousel">
-    <div class="single_slider" data-bgimg="img/slider/slide1.jpg">
+    <div class="single_slider" data-bgimg="img/slider/homebg.png">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-12">

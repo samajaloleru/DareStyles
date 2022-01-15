@@ -26,10 +26,14 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about_content">
                         <h1>Welcome To DáréStyles!</h1>
-                        <p> perspiciatis pariatur magnam ducimus excepturi error libero provident animi laboriosam maiores ad explicabo ea laudantium nostrum dolor distinctio, quas fugiat doloribus, sit, possimus obcaecati ab quo vel commodi eum. Laudantium libero, voluptate rerum sunt hic,</p>
+                        <p> 
+                            "I've been in business since 2018 and I wouldn't trade it for anything. This was a leap of faith; but, I have been blessed so many times throughout this journey. This is my passion, and I can't wait to see what the future holds!" - Bri Marie
+                            The To DáréStyles! Mission
+                            DáréStyles! is committed to providing the best salon experience. Getting your hair done "the only way by Bri" means you will be catered to and pampered by some of the best in style, passion, creativity, pride and excellence in the industry. Bri Marie is here at your service.
+                        </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse numquam blanditiis quos, fuga, aspernatur doloribus expedita, soluta dolore cumque.</p>
                         <div class="view__work">
-                            <a href="#">view work </a>
+                            <a href="#">Book Appointment </a>
                         </div>  
                     </div>
                 </div>
@@ -42,6 +46,51 @@
         </div>     
     </div>
     <!--about section end-->
+    <div class="srrvices_gallery">
+        <div class="container">  
+            <div class="about_content">
+                <h1>Our services</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_services">
+                        <div class="services_thumb">
+                            <img src="img/service/services1.jpg" alt="">
+                        </div>
+                        <div class="services_content">
+                           <h3>Wig making, Wig Revamp</h3>
+                           <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_services">
+                        <div class="services_thumb">
+                            <img src="img/service/services2.jpg" alt="">
+                        </div>
+                        <div class="services_content">
+                           <h3>Braids</h3>
+                           <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_services">
+                        <div class="services_thumb">
+                            <img src="img/service/services3.jpg" alt="">
+                        </div>
+                        <div class="services_content">
+                           <h3>Wig making</h3>
+                           <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
 
 
     <!--counterup area -->
